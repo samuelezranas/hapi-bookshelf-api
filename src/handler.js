@@ -1,4 +1,4 @@
-const { nanoid } = require('nanoid');
+const nanoid = import('nanoid').then(module => module.nanoid);
 const books = require('./books');
 
 /**
