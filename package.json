@@ -1,4 +1,17 @@
 {
+  "name": "bookshelf-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "SET PORT=9000 nodemon ./src/server.js",
+    "lint": "eslint ./src",
+    "fix": "eslint ./src --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "@hapi/hapi": "^21.3.10"
   },
